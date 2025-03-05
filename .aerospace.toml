@@ -70,15 +70,19 @@ automatically-unhide-macos-hidden-apps = false
     inner.vertical =   8
     outer.left =       10
     outer.bottom =     10
-    outer.top =        9
+    outer.top =        34
     outer.right =      10
 
 [workspace-to-monitor-force-assignment]
-2 = 'main'                       # Main monitor
+0 = 'main'
+1 = 'main'
+2 = 'main'                       # Main monitor   
 4 = 'main'                     
-B = 'main'
-6 = 'secondary'                     
-8 = 'secondary' 
+B = 'secondary'
+5 = 'secondary'                     
+7 = 'secondary' 
+T = 'secondary'
+C = 'secondary'
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -122,9 +126,9 @@ alt-shift-f = 'fullscreen '
     alt-slash = 'layout accordion horizontal vertical'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#focus
-    alt-h = 'focus left'
+    alt-k = 'focus left'
     alt-j = 'focus down'
-    alt-k = 'focus up'
+    alt-h = 'focus up'
     alt-l = 'focus right'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#move
@@ -140,7 +144,6 @@ alt-shift-f = 'fullscreen '
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
     alt-1 = 'workspace 1'
     alt-2 = 'workspace 2'
-    
     alt-4 = 'workspace 4'
     alt-5 = 'workspace 5'
     alt-6 = 'workspace 6'
@@ -148,11 +151,13 @@ alt-shift-f = 'fullscreen '
     alt-8 = 'workspace 8'
     alt-9 = 'workspace 9'
     alt-0 = 'workspace 0'
+    alt-t = 'workspace T'
+    alt-b = 'workspace B'
+    alt-c = 'workspace C'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
     alt-shift-1 = 'move-node-to-workspace 1'
     alt-shift-2 = 'move-node-to-workspace 2'
-    
     alt-shift-4 = 'move-node-to-workspace 4'
     alt-shift-5 = 'move-node-to-workspace 5'
     alt-shift-6 = 'move-node-to-workspace 6'
@@ -160,6 +165,9 @@ alt-shift-f = 'fullscreen '
     alt-shift-8 = 'move-node-to-workspace 8'
     alt-shift-9 = 'move-node-to-workspace 9'
     alt-shift-0 = 'move-node-to-workspace 0'
+    alt-shift-t = 'move-node-to-workspace T'
+    alt-shift-b = 'move-node-to-workspace B'
+    alt-shift-c = 'move-node-to-workspace C'
 
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
